@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Themify By Oussama Berrada Ifriqi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body class="">
+    <button
+      id="thm"
+      class="btn btn-primary"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasTop"
+      aria-controls="offcanvasTop"
+    >
+      Themes
+    </button>
+
+    <div
+      class="offcanvas offcanvas-top"
+      tabindex="-1"
+      id="offcanvasTop"
+      aria-labelledby="offcanvasTopLabel"
+    >
+      <div class="offcanvas-header">
+        <h4>Choose You Preferable Theme Color :</h4>
+        <div class="colors d-flex">
+            <div onclick="blue()" class="blue"></div>
+            <div onclick="indigo()" class="indigo"></div>
+            <div onclick="red()" class="red"></div>
+            <div onclick="orange()" class="orange"></div>
+            <div onclick="pink()" class="pink"></div>
+            <div onclick="yellow()" class="yellow"></div>
+            <div onclick="green()" class="green"></div>
+            <div onclick="teal()" class="teal"></div>
+            <div onclick="black()" class="black"></div>
+        </div>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body"></div>
+    </div>
+    <div class="container">
+      <div class="logo p-2 d-flex">
+        <a href="">
+          <h1>Sport<span>Ters</span></h1>
+        </a>
+      </div>
+      <nav class="navbar">
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-home-alt fa-2x rounded-5 p-3 bg-primary"
+            title="Home"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-soccer-ball fa-2x rounded-5 p-3 bg-primary"
+            title="Football"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-basketball fa-2x rounded-5 p-3 bg-primary"
+            title="Basketball"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-baseball fa-2x rounded-5 p-3 bg-primary"
+            title="Baseball"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-hockey-puck fa-2x rounded-5 p-3 bg-primary"
+            title="Hockey"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-football fa-2x rounded-5 p-3 bg-primary"
+            title="Rugby"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-volleyball fa-2x rounded-5 p-3 bg-primary"
+            title="Volleyball"
+            style="color: aliceblue"
+          ></i
+        ></a>
+        <a href=""
+          ><i
+            id="link"
+            class="fas fa-sign-in fa-2x rounded-5 p-3 bg-primary"
+            title="Sign In"
+            style="color: aliceblue"
+          ></i
+        ></a>
+      </nav>
+      <div class="row pt-4">
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+          <div class="card">
+            <img src="image/1020177.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">22/02/2022</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem tempore dolores possimus ut illo obcaecati
+                eligendi repellendus, quae eveniet adipisci amet officiis vitae
+                quis, quidem aspernatur, pariatur placeat! Eveniet, facilis.
+              </p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      First Event
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eaque quia quis vero sint voluptatem maiores. Delectus
+                      alias ab eius. Atque alias, nemo consequuntur a eveniet
+                      sapiente tempore quidem dolor adipisci.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Second Event
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Illum ea obcaecati culpa laudantium fuga quaerat sit
+                      dolores consectetur incidunt reiciendis, qui sed veritatis
+                      facilis nobis cumque quis nisi, quia dolore!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Third Event
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Modi corrupti aut odio quas saepe possimus ut
+                      voluptatibus, voluptatum suscipit officiis sequi fugit
+                      dolores! Atque asperiores, odio eum dolorum dignissimos
+                      recusandae.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <a href="#" class="btn btn-primary">Download Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <ul class="list-group">
+            <li id="act" class="list-group-item d-flex" aria-current="true">
+              <img src="image/Acorn.png" class="img-fluid" width="80px" />Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?
+            </li>
+            <li id="lstit" class="list-group-item d-flex" aria-current="true">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?<img
+                src="image/Bartender.png"
+                class="img-fluid"
+                width="80px"
+              />
+            </li>
+            <li id="lstit" class="list-group-item d-flex" aria-current="true">
+              <img
+                src="image/Airfoil.png"
+                class="img-fluid"
+                width="80px"
+              />Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?
+            </li>
+            <li id="lstit" class="list-group-item d-flex" aria-current="true">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?<img
+                src="image/Adobe Fresco.png"
+                class="img-fluid"
+                width="80px"
+              />
+            </li>
+            <li id="lstit" class="list-group-item d-flex" aria-current="true">
+              <img src="image/Anki.png" class="img-fluid" width="80px" />Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?
+            </li>
+            <li id="lstit" class="list-group-item d-flex" aria-current="true">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?<img
+                src="image/Audiotool.png"
+                class="img-fluid"
+                width="80px"
+              />
+            </li>
+            <li id="lstit" class="list-group-item d-flex" aria-current="true">
+              <img
+                src="image/Betternet.png"
+                class="img-fluid"
+                width="80px"
+              />Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia,
+              quibusdam?
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- col-xl-8 col-lg-8 col-md-8 col-sm-12-->
+      <!-- col-xl-4 col-lg-4 col-md-4 col-sm-12-->
+
+      <footer class="bd-footer   bg-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-3 mb-3">
+              <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none">
+                <i class="fas fa-x-ray fa-3x"></i>
+                <span class="fs-5">Lorem</span>
+              </a>
+              <ul class="list-unstyled small text-muted">
+                <li class="mb-2">Designed and built In The Most Random Way By <a href="">Dexter</a> , Be Always <a href="">Unique</a>.</li>
+                <li class="mb-2">Code licensed <a href="" target="_blank" rel="license noopener">MIT</a>.</li>
+                <li class="mb-2">With Love " Dex ".</li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="">Home</a></li>
+                <li class="mb-2"><a href="">Our Work</a></li>
+                <li class="mb-2"><a href="">Themes</a></li>
+    </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Social Media</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="">Facebook</a></li>
+                <li class="mb-2"><a href="">Instagram</a></li>
+                <li class="mb-2"><a href="">Twitter</a></li>
+                <li class="mb-2"><a href="">Linkedin</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Refrences</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="">Edify.com</a></li>
+                <li class="mb-2"><a href="">Github</a></li>
+                <li class="mb-2"><a href="">Youtube</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="mailto:lorem123@gmail.com">Email</a></li>
+                <li class="mb-2"><a href="">Request Poll</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+
+
+    
+
+    <div id="theme">
+      
+    </div>
+
+
+    <!--Script Linking-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/theme.js"></script>
+    <!--Script Linking End -->
+  </body>
+</html>
